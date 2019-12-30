@@ -2,7 +2,7 @@
   "name": "register",
   "version": "0.0.0",
   "scripts": {
-    "start": "node site.js && node server.js"
+    "start": "node server.js"
   },
   "private": true,
   "dependencies": {
