@@ -1,0 +1,70 @@
+{
+  "configVersion": 1,
+  "timestamp": 1577696711793,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.5d04c5dae58d5c56b44f.js",
+        "/main-es5.5d04c5dae58d5c56b44f.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.2987770fde9daa1d8a2e.js",
+        "/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
+        "/runtime-es2015.edb2fcf2778e7bf1d426.js",
+        "/runtime-es5.edb2fcf2778e7bf1d426.js",
+        "/styles.227de51e90e3cdd21b80.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/icons/icon.png",
+        "/assets/mom.jpg",
+        "/assets/vicky.jpeg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/icons/icon.png": "d655670b0b598d170d2570cdd63ed6a47a95e87c",
+    "/assets/mom.jpg": "5c904ddefbbed787d489b44cd9cadc2aa07d7b4e",
+    "/assets/vicky.jpeg": "d2d8c141c1f215cc368c40a572ce0744c7d696dd",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/index.html": "f1e9e15e76f055d1dc19b4935c0ccb6f5a9444cd",
+    "/main-es2015.5d04c5dae58d5c56b44f.js": "16986ce2e695ce0a025efafa99349c1217cc543f",
+    "/main-es5.5d04c5dae58d5c56b44f.js": "74207fe92b2e7afbfb4681e8df50d2cd75d3aade",
+    "/manifest.webmanifest": "138f277f586c0bdfc0c5134d61cd158048d17d30",
+    "/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
+    "/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "9ceb13edd4b10268f661814868dadb2b284f9745",
+    "/runtime-es2015.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.edb2fcf2778e7bf1d426.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.227de51e90e3cdd21b80.css": "e44247179f7ff6c616439f6ad8e4e8acc146201a"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
