@@ -42,9 +42,9 @@ const onListening = () => {
 };
 
 const port = normalizePort("3000");
-app.set("port", process.env.port || port);
+app.set("port", port);
 
-console.log(port);
+console.log(process.env.port);
 
 const server = http.createServer(app);
 server.on("error", onError);
