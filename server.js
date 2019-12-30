@@ -41,10 +41,10 @@ const onListening = () => {
   const bind = typeof addr === "string" ? "pipe " + addr : "port " + port;
 };
 
-console.log(port);
-
 const port = normalizePort("3000");
 app.set("port", port);
+
+console.log(port);
 
 const server = http.createServer(app);
 server.on("error", onError);
