@@ -46,6 +46,9 @@ app.set("port", process.env.PORT);
 
 console.log(process.env.PORT);
 
+const _app_folder = "Register";
+app.use(express.static(_app_folder));
+
 const server = http.createServer(app);
 server.on("error", onError);
 server.on("listening", onListening);
