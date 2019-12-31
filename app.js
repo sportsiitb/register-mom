@@ -18,6 +18,9 @@ const app = express();
 const Type = require("./models/type");
 const Surgery = require("./models/surgery");
 
+const _app_folder = "Register";
+app.use(express.static(_app_folder));
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 
