@@ -4,8 +4,8 @@ const mongoose = require("mongoose");
 
 mongoose
   .connect(
-    // "mongodb://harshbaldwa:anurag93@ds359298.mlab.com:59298/heroku_j45c257j"
-    "mongodb://localhost:27017/mom"
+    "mongodb://harshbaldwa:anurag93@ds359298.mlab.com:59298/heroku_j45c257j"
+    // "mongodb://localhost:27017/mom"
   )
   .then(() => {
     console.log("Connected to database!");
