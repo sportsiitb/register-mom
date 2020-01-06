@@ -58,6 +58,13 @@ app.post('/api/surgeryNew', (req, res, next) => {
   console.log(surgeryType);
 });
 
+app.post('/api/surgeryDelete', (req, res, next) => {
+  const id = req.body.id;
+  Surgery.deleteOne({_id: id}).then(documents => {
+    res.status(200).json(documents);
+  });
+});
+
 app.get("/api/rate", (req, res, next) => {
   Type.find({}).then(documents => {
     const rateCard = documents;
